@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Study MBBS Abroad</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'GA_TRACKING_ID');
+    </script>
+    <script>
+        function validateForm() {
+            let name = document.forms["leadForm"]["name"].value;
+            let email = document.forms["leadForm"]["email"].value;
+            let phone = document.forms["leadForm"]["phone"].value;
+            if (name == "" || email == "" || phone == "") {
+                alert("All fields must be filled out");
+                return false;
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+</head>
+
+<body class="bo">
+    <div class="progress"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Study-Abroad</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <div>
+                        <select id="country" name="country" class="form-control">
+                            <option value="Russia">select country</option>
+                            <option value="Russia">Russia</option>
+                            <option value="Uzbekistan">Uzbekistan</option>
+                            <option value="Kazakhstan">Kazakhstan</option>
+                            <option value="Philippines">Philippines</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Kyrgyzstan">Kyrgyzstan</option>
+                            <option value="Egypt">Egypt</option>
+                        </select>
+                    </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container" style="margin-top: 3vh; text-align: center;">
+        <h2 style="margin-bottom:5vh;">Apply Now for MBBS Abroad!</h2>
+    </div>
+    <div class="container ques">
+
+        <div class="benifit">
+            <h3>Why study MBBS Abroad?</h3>
+            <p>Studying MBBS abroad offers affordable tuition, globally recognized degrees, modern infrastructure,
+                diverse clinical exposure, high-quality education, no entrance exams in many countries, and better
+                opportunities for international career growth.</p>
+
+            <h4>Benifits:</h4>
+            <p>MBBS programs abroad are often cheaper than private medical colleges in countries like India, the US, or
+                the UK. Many universities offer scholarships and flexible payment options. Graduates can practice
+                medicine in multiple countries after clearing licensing exams (USMLE, PLAB, FMGE, etc.). Universities
+                abroad focus on hands-on clinical training with real patients.</p>
+        </div>
+
+        <div class="cont">
+            <h3>Top countries:</h3>
+            <p>Russia, Uzbekistan, Kazakhstan, Philippines, Georgia, Kyrgyzstan and Egypt</p>
+
+            <h4>Admission process and eligibility steps for Applying MBBS Abroad?</h4>
+            <p>The MBBS abroad admission process involves selecting a recognized university, meeting eligibility (50% in
+                PCB, NEET qualification), applying online, submitting documents (passport, mark sheets, NEET score,
+                medical certificate), receiving an admission letter, applying for a student visa, paying fees, booking
+                travel, and starting your medical education.</p>
+        </div>
+    </div>
+
+    <div class="container contus">
+        <h3>Contact Us!</h3>
+    </div>
+    <div class="container main">
+        <div class="loc">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497701.18144111056!2d77.0069545805691!3d12.953255113177358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1739546100283!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="frm">
+            <h4 style="text-align: center;">User Info</h4>
+            <form class="row g-3">
+                <div class="col-md-4">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="abc@gmail.com">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Mark as Read
+                            <p>Tick the box if you fill the form completely</p>
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+@media screen and (max-width:1000px) {
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 5vh;
+    }
+
+    .loc {
+        width: 100vw;
+    }
+
+    .ques {
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* border: 1px solid black; */
+    }
+
+    .benifit {
+        background-color: #212529;
+        margin-bottom: 2vw;
+
+    }
+
+    .cont {
+
+        background-color: #212529;
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+    .bo {
+
+        display: none;
+
+
+    }
+}

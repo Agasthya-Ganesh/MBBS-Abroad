@@ -1,0 +1,65 @@
+.nav-link {
+    margin-right: 1vw;
+}
+
+.ques {
+
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.benifit {
+
+    background-color: #212529;
+    margin-right: 2vw;
+
+}
+
+.cont {
+
+    background-color: #212529;
+}
+
+.container.contus h3 {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.main {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.loc {
+    margin-right: 2vw;
+}
+
+.progress {
+    background-color: red;
+    height: 0.2vh;
+    animation: progressbar 2s ease-out 1s;
+}
+
+@keyframes progressbar {
+    0% {
+        width: 0vw;
+    }
+
+    50% {
+        width: 60vw;
+    }
+
+    90% {
+        width: 100vw;
+    }
+
+    100% {
+        width: 0vw;
+    }
+
+}
